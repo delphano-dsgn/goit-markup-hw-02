@@ -1,11 +1,5 @@
- 
- /* font-family: "Raleway",
-sans-serif;
-
-font-family: "Roboto",
-sans-serif; */
-body {
-font-family: "Roboto",
+ body {
+font-family: "Roboto", Helvetica
         sans-serif;
 color: #434455;
 background-color: #FFFFFF;
@@ -60,6 +54,46 @@ color: #2e2f42;
         color: #434455;
 }
 
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-btn {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+}
+.hero-btn:hover, .hero-btn:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #404bbf;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.benefits.text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-dscr {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 .page-footer {
 background-color: #2e2f42;
 }
