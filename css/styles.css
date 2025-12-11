@@ -58,6 +58,7 @@ color: #2e2f42;
 }
 
 .hero-title {
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -70,8 +71,8 @@ color: #2e2f42;
     background: #4d5ae5;
     cursor: pointer;
     font-weight: 500;
-    line-height: 1.5
-    letter-spacing: 0.04em
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #fff; 
 } 
 .hero-btn:hover, .hero-btn:focus {
@@ -79,6 +80,7 @@ color: #2e2f42;
 }
 .h2-benefits, .h2-team, .h2-portfolio {
     text-transform: capitalize;
+    text-align: center;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
