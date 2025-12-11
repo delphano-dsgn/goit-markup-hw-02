@@ -1,6 +1,5 @@
  body {
-font-family: "Roboto", Helvetica
-        sans-serif;
+font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 
@@ -63,35 +62,48 @@ color: #2e2f42;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 
 .hero-btn {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
-        cursor: pointer;
-}
+    font-family: inherit;
+    background: #4d5ae5;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5
+    letter-spacing: 0.04em
+    color: #fff; 
+} 
 .hero-btn:hover, .hero-btn:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #404bbf;
 }
-h2 {
+.h2-benefits, .h2-team, .h2-portfolio {
+    text-transform: capitalize;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
-h3 {
+
+.h3-benefits, .h3-team, .h3-portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.benefits.text, .team-dscr, .portfolio-text, .footer-text{
+
+.team-title{
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+    
+.benefits-text, .team-dscr, .portfolio-text, .footer-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -100,6 +112,9 @@ h3 {
     background-color: #f4f4fd;
 }
 
+.portfolio-item, .team-item {
+    background-color: #fff;
+}
 .page-footer {
 background-color: #2e2f42;
 }
